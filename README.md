@@ -1,106 +1,154 @@
-Procurement Intelligence: Vendor Optimization
-Efficiency • Reliability • Growth
-Project Overview
+# Procurement Intelligence: Vendor Optimization
 
-This repository presents a data-driven procurement and vendor performance analysis conducted for W. Gr Inc., a vendor operating across multiple locations. The study, titled “To Buy or Not to Buy”, evaluates procurement effectiveness using Power BI dashboards and focuses on identifying operational gaps, satisfaction drivers, and growth opportunities.
+**Tagline:** Efficiency. Reliability. Growth.
 
-The analysis is based on a 12-month dataset covering procurement cycles, payments, freight costs, vendor performance, and product sales. Insights derived from this study support informed decision-making aimed at improving efficiency, reliability, and long-term scalability.
+![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?logo=powerbi&logoColor=000)
+![Domain](https://img.shields.io/badge/Domain-Procurement%20Analytics-0A66C2)
+![Focus](https://img.shields.io/badge/Focus-Vendor%20Optimization-1F7A1F)
 
-Objectives
+## Project Overview
 
-The project is structured around three strategic objectives:
+This repository contains a data-driven procurement and vendor performance analysis for **W. Gr Inc.** The study, titled **"To Buy or Not to Buy"**, uses Power BI dashboards to identify operational gaps, uncover satisfaction drivers, and highlight growth opportunities.
 
-Improve Client Satisfaction
-Identify operational and cost-related factors that influence customer experience and vendor trust.
+The analysis is built on a 12-month dataset covering:
 
-Enhance Operational Efficiency
-Analyze procurement cycles, lead times, and process bottlenecks to reduce delays and improve consistency.
+- Procurement cycle metrics
+- Payment timeliness
+- Freight costs
+- Vendor-level performance
+- Product sales and category distribution
 
-Foster Innovation in Product Offerings
-Assess product concentration and category diversity to identify opportunities for new, high-impact product introductions.
+## Why This Project Matters
 
-Executive Summary
+Procurement performance directly affects customer satisfaction, working capital, and business scalability. This project converts raw procurement operations data into practical decisions by showing where delays, costs, and concentration risks hurt business outcomes.
 
-The Power BI dashboards reveal that performance challenges at W. Gr Inc. are primarily driven by delayed payments, extended procurement cycles, and over-dependence on a single product classification.
+## Business Objectives
 
-Key findings include:
+1. **Improve Client Satisfaction**  
+	Identify cost and service factors that influence customer trust and experience.
+2. **Enhance Operational Efficiency**  
+	Analyze cycle times, lead-time variability, and process bottlenecks.
+3. **Drive Product Innovation**  
+	Reduce product concentration risk and identify opportunities for new product launches.
 
-Average response time of 16.46 days
+## Executive Summary
 
-Only 17.91% of payments completed on time
+The dashboards show three core performance challenges:
 
-Procurement cycle averaging 52.15 days
+- Delayed payments
+- Extended procurement cycles
+- High revenue concentration in a single product classification
 
-Nearly 65% of total revenue concentrated in one product classification
+### Key Baseline Metrics
 
-The analysis indicates that by streamlining payment processes, strengthening vendor accountability, optimizing freight costs, and expanding the product portfolio, W. Gr Inc. can realistically achieve:
+| Metric | Value |
+| --- | --- |
+| Average response time | **16.46 days** |
+| On-time payment rate | **17.91%** |
+| Average procurement cycle | **52.15 days** |
+| Revenue from one classification | **~65%** |
 
-A 30% improvement in client satisfaction
+### Estimated Impact (After Recommended Actions)
 
-A 25% reduction in procurement cycle time
+- ~30% improvement in client satisfaction
+- ~25% reduction in procurement cycle time
+- Launch of 2-3 high-volume products in underrepresented categories
 
-The successful launch of 2–3 new high-volume products
+## Analytical Questions Answered
 
-Dashboard Insights
-Objective 1: Client Satisfaction
+1. Which operational factors are most damaging to client satisfaction?
+2. Where are the biggest procurement process bottlenecks?
+3. Which vendors create avoidable delays or cost pressure?
+4. How concentrated is current revenue across product classifications?
+5. Which categories are best candidates for product expansion?
 
-This dashboard evaluates customer experience using operational proxies such as response time, payment timeliness, freight cost, and vendor reliability.
+## Dashboard Insights
 
-Long response times and late payments significantly reduce perceived reliability.
+### Objective 1: Improve Customer Satisfaction
 
-Freight cost spikes correlate with drops in experience scores.
+- Long response times and late payments reduce vendor reliability perception.
+- Freight-cost spikes correlate with lower experience scores.
+- A small set of vendors contributes disproportionately to dissatisfaction.
 
-A small group of vendors contributes disproportionately to dissatisfaction.
+**Primary levers:** payment discipline and high-cost vendor intervention.
 
-Improving payment timeliness and addressing high-cost vendors emerge as the most effective levers for raising satisfaction levels.
+![Objective 1 Dashboard](Screenshots/Objective1%20-%20Improve%20Customer%20Satisfaction.png)
 
-Objective 2: Operational Efficiency
+### Objective 2: Enhance Operational Efficiency
 
-This dashboard focuses on procurement cycle performance and vendor-level variability.
+- Average procurement cycle time is **52.15 days**.
+- SLA compliance is relatively high (**89.33%**), but payment lag remains a critical bottleneck.
+- Vendor cycle times vary widely (**40-62 days**), creating inconsistency.
 
-Average procurement cycle time stands at 52.15 days.
+**Primary levers:** approval automation and tighter vendor SLA enforcement.
 
-While SLA compliance is high (89.33%), payment delays remain the dominant bottleneck.
+![Objective 2 Dashboard](Screenshots/Objective2%20-%20Enhance%20Operational%20Efficiency.png)
 
-Vendor cycle times range widely from 40 to 62 days, creating inconsistency.
+### Objective 3: Innovation in Product Offerings
 
-Automation of approvals and tighter enforcement of vendor timelines present clear opportunities to reduce cycle time by 20–25%.
+- Category diversity is moderate (**45.17%**).
+- One classification contributes over **65%** of total revenue, creating concentration risk.
+- Broad product-level sales distribution indicates room for scalable expansion.
 
-Objective 3: Innovation in Product Offerings
+**Primary levers:** pilot and scale new products in underrepresented categories.
 
-This dashboard examines revenue distribution and product diversity.
+![Objective 3 Dashboard](Screenshots/Objective3%20-%20Innovation%20in%20Product%20Offerings.png)
 
-Category diversity is moderate at 45.17%.
+## Recommended Implementation Plan
 
-A single classification accounts for over 65% of revenue, indicating concentration risk.
+1. Automate payment approval workflows to reduce payment delays.
+2. Enforce stricter vendor SLA adherence to normalize cycle times.
+3. Renegotiate freight agreements with high-cost vendors.
+4. Pilot new products in low-representation categories and scale based on performance.
+5. Use Power BI dashboards for continuous KPI monitoring.
 
-Sales are distributed across many products, suggesting potential for scalable new launches.
+## Forecasted Business Outcomes
 
-The findings support the introduction of 2–3 new products in underrepresented categories to strengthen growth and reduce dependence on a single segment.
+- Procurement cycle time reduced by approximately **13 days** within one year.
+- On-time payment rate improved from **17.91%** to **80%+**.
+- Client satisfaction increased by approximately **30%**.
+- Revenue concentration risk reduced through category diversification.
 
-Implementation Approach
+## Repository Structure
 
-To address the identified gaps, the following actions are recommended:
+```text
+Procurement-Intelligence-Vendor-Optimization/
+|-- PowerBI/
+|   `-- Objectives/
+|       |-- Objective1.pbix
+|       |-- Objective2_NotUploaded.txt
+|       `-- Objective3.pbix
+|-- Screenshots/
+|   |-- Objective1 - Improve Customer Satisfaction.png
+|   |-- Objective2 - Enhance Operational Efficiency.png
+|   `-- Objective3 - Innovation in Product Offerings.png
+`-- README.md
+```
 
-Automate payment approval workflows to eliminate delays.
+## How to Use This Repository
 
-Enforce stricter vendor SLAs to normalize procurement timelines.
+1. Open Power BI files from `PowerBI/Objectives/`.
+2. Review each objective dashboard to understand KPI performance and bottlenecks.
+3. Use the screenshots for quick preview when Power BI Desktop is not available.
+4. Apply the implementation plan as a phased optimization roadmap.
 
-Renegotiate freight agreements with high-cost vendors.
+## Deliverables
 
-Pilot new products in underutilized categories and scale based on performance.
+- Objective 1 dashboard: Customer satisfaction drivers
+- Objective 2 dashboard: Operational cycle-time efficiency
+- Objective 3 dashboard: Product innovation and concentration risk
+- Executive-level recommendations and forecasted impact
 
-Use Power BI dashboards as continuous monitoring tools for key performance indicators.
+## Tools Used
 
-Forecast and Expected Impact
+- **Power BI** for dashboard development and storytelling
+- **Data analytics and KPI monitoring** for procurement decision support
 
-Reduction of procurement cycle time by approximately 13 days within one year.
+## Conclusion
 
-Increase in on-time payment rate from 17.91% to over 80%.
+This project demonstrates how procurement and vendor analytics can be translated into actionable business strategy. By improving payment discipline, reducing process variability, and diversifying product revenue streams, organizations can strengthen operational performance and support sustainable growth.
 
-Improvement in client satisfaction by around 30%.
+## Notes
 
-Reduced revenue concentration and improved resilience to market changes.
-Conclusion
-
-This project demonstrates how procurement and vendor data can be transformed into actionable insights through effective visualization and analysis. By focusing on payment discipline, vendor reliability, and product diversification, organizations can improve operational performance, enhance customer satisfaction, and support sustainable growth.
+- `Objective2_NotUploaded.txt` indicates that the second dashboard source file is currently unavailable in this repository snapshot.
+- Metrics and projections are based on the available 12-month analysis dataset and dashboard model assumptions.
